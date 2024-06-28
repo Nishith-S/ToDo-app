@@ -122,7 +122,6 @@ class _HomePageState extends State<HomePage> {
     );
   }
 
-  //delete method
   void deleteTask(int index) {
     setState(() {
       try {
