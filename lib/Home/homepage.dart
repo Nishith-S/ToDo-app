@@ -219,7 +219,7 @@ class _HomePageState extends State<HomePage> {
     myFlag();
   }
 
-  //Unselect the all task or any seletced task
+  //Unselect the all task or any selected task
   void unselectAll() {
     for (int i = 0; i < foundToDO.length; i++) {
       db.todolist[i][1] = false;
