@@ -4,7 +4,7 @@ class ToDoDatabase {
   final __myBox = Hive.box("todoStorage");
   List todolist = [];
 
-  //If user opens for first time then create default todotile
+  //If user opens for first time then create default todo tile
   void createTile() {
     todolist = [
       [
