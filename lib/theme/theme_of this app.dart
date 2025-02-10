@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
 
 ThemeData darkMode = ThemeData(
-    backgroundColor: Colors.grey.shade800,
     hintColor: Colors.white,
-    toggleableActiveColor: Colors.black,
     searchBarTheme: SearchBarThemeData(
       backgroundColor: MaterialStateProperty.all(Colors.grey.shade800),
       hintStyle:
@@ -23,7 +21,6 @@ ThemeData darkMode = ThemeData(
 
 ThemeData lightMode = ThemeData(
     hintColor: Colors.black,
-    toggleableActiveColor: Colors.white,
     searchBarTheme: SearchBarThemeData(
       backgroundColor: MaterialStateProperty.all(Colors.grey.shade100),
       hintStyle:

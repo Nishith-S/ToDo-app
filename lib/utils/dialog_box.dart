@@ -32,7 +32,7 @@ class DialogBox extends StatelessWidget {
                   width: 250,
                   alignment: Alignment.center,
                   decoration: BoxDecoration(
-                      color: Theme.of(context).backgroundColor,
+                      color: Theme.of(context).colorScheme.background,
                       borderRadius: BorderRadius.circular(10)),
                   margin: EdgeInsets.only(),
                   child: child,
